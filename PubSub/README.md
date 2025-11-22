@@ -6,7 +6,7 @@ Fanout exchange routes messages to all of the queues that are bound to it and th
 
 Fanout exchanges are ideal for the broadcast routing of messages
 
-## Test case:
+## Test case
 
 Start 1 to N consumers (subscribe_logs.py) in different terminals:
 

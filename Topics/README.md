@@ -1,6 +1,6 @@
-## Topics
+# Topics
 
-# About this example: Receiving messages based on a pattern (topics)
+## About this example: Receiving messages based on a pattern (topics)
 
 Topic exchanges route messages to one or many queues based on matching between a message routing key and the pattern that was used to bind a queue to an exchange.
 

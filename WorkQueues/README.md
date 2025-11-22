@@ -16,21 +16,21 @@ Using message acknowledgments and prefetch_count you can set up a work queue.
 
 The message durability options let the tasks survive even if RabbitMQ is restarted.
 
-## Test case:
+## Test case
 
-Open a terminal and execute 1 to N senders (task_petitioners.py)
+Open a terminal and execute 1 to N senders (task_petitioner.py)
 
 ```bash
-python3 sender.py First Victors task:...
-python3 sender.py Second Victors task:.
-python3 sender.py Third Victors task:.....
-python3 sender.py Fourth Victors task:..
-python3 sender.py Fifth Victors task:....
-python3 sender.py Sixth Victors task:......
-python3 sender.py Seventh Victors task:.
-python3 sender.py Eighth Victors task:.
-python3 sender.py Ninth Victors task:.
-python3 sender.py Tenth Victors task:.
+python3 task_petitioner.py First Victors task:...
+python3 task_petitioner.py Second Victors task:.
+python3 task_petitioner.py Third Victors task:.....
+python3 task_petitioner.py Fourth Victors task:..
+python3 task_petitioner.py Fifth Victors task:....
+python3 task_petitioner.py Sixth Victors task:......
+python3 task_petitioner.py Seventh Victors task:.
+python3 task_petitioner.py Eighth Victors task:.
+python3 task_petitioner.py Ninth Victors task:.
+python3 task_petitioner.py Tenth Victors task:.
 ```
 
 Open 1 to M terminals and execute the workers (worker.py)
