@@ -15,7 +15,7 @@ Some concepts you should know:
 - Producer
 - Consumer
 - Message
-- Exchage
+- Exchange
 - Binding
 - Queue
 - Routing key
