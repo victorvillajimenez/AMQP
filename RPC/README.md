@@ -32,5 +32,5 @@ python3 client.py 20
 python3 client.py 10
 ```
 
-[!NOTE]
-For arguments in client.py, no more than 40, it takes long.
+> [!CAUTION]
+> For arguments in client.py, no more than 40, it takes long.

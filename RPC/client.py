@@ -38,7 +38,8 @@ class FibonacciRpcClient (object):
         reply_to=self.callback_queue,
         correlation_id=self.corr_id,
         # delivery_mode=2,
-        # content_type='application/json'
+        # content_type='application/json',
+        # headers={'key': 'value'},
       ),
       body=str(n),
     )
